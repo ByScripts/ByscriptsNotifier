@@ -1,0 +1,13 @@
+{
+    "name": "byscripts/notifier",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thierry Goettelmann",
+            "email": "thierry@byscripts.info"
+        }
+    ],
+    "require": {
+
+    }
+}
