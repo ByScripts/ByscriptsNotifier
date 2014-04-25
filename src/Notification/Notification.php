@@ -46,4 +46,14 @@ class Notification
         $this->exceptions[] = $exception;
         $this->addErrorMessage($exception->getMessage());
     }
+
+    public function getSuccessMessages()
+    {
+        return $this->successMessages;
+    }
+
+    public function getErrorMessages()
+    {
+        return $this->errorMessages;
+    }
 }
